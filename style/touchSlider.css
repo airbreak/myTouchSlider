@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+.touchslider-item{
+    height:345px;
+}
+.touchslider-item a{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.touchslider-item img{
+    width: 500px;
+    height: 375px;
+}
+
+.touchslider-nav-item-current{
+
+}

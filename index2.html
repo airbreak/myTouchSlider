@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="overflow-x: hidden;">
+
+<head>
+    <title>123</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+    body{
+        overflow: hidden;
+    }
+    img{
+        max-width:80%;
+    }
+    #currentPage{
+        display: none;
+        background-color: #ccc;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 999999;
+    }
+    </style>
+</head>
+<body>
+    <div class="touchSlider">
+        <ul id="slider4" style="position: relative; transition: none; width: 1656px; left: -1242px;">
+            <li style="display: inline; float: left; width: 394px;">
+                <a href="javascript:getImg('img1');">
+                    <img src="imgs/assets/img1.jpg" alt="">
+                </a>
+            </li>
+            <li style="float: left; display: inline; width: 394px;">
+                 <a href="javascript:getImg('img2');">
+                    <img src="imgs/assets/img2.jpg" alt="">
+                </a>
+            </li>
+            <li style="float: left; display: inline; width: 394px;"><img src="imgs/assets/img3.jpg" alt=""></li>
+            <li style="float: left; display: inline; width: 394px;"><img src="imgs/assets/img4.jpg" alt=""></li>
+        </ul>
+    </div>
+    <div id="currentPage"></div>
+</body>
+<!-- <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script> -->
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script src="js/jquery.touchSlider.min1.js"></script>
+<script src="js/touchSlider1.js"></script>
+</html>
